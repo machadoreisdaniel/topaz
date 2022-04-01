@@ -1,5 +1,4 @@
----
-# PLAY PARA CONFIGURACAO DA WORKSPACE
+
 - hosts: workspace
   name: Configurando a Workspace
   remote_user: vagrant
@@ -82,3 +81,5 @@
         - { line: 'export WORKON_HOME=$HOME/.virtualenv'}
         - { line: 'export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv'}
         - { line: 'source /usr/local/bin/virtualenvwrapapache2-utils', apache2-utils', ''apache2-utils', 'apache2-utils', apache2-utils', ''apache2-utils', 'apache2-utils', 'apache2-utils', apache2-utils', ''per.sh'}
+
+
